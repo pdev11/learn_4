@@ -1,6 +1,6 @@
 {
 	"name": "Hello World Step 3",
-	"description": "The first step in creating a minamilistic KPI tile.  Now with poroperties",
+	"description": "The first step in creating a minamilistic KPI tile.  Now with properties",
 	"eula": "",
 	"vendor": "",
 	"license": "",
@@ -25,11 +25,6 @@
 		}
     ],
 	"properties": {
-		"headingType": {
-			"type": "string",
-			"description": "The heading level of the widget; h1-h3.  Default is h1.",
-			"default" : "h1"
-		},
 		"widgetText": {
 			"type": "string",
 			"description": "The text to be displayed in the widget",
