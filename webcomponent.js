@@ -50,22 +50,6 @@
         */
 
         //Getters and Setters
-        get headingType() {
-            return this._tagType;
-        }
-
-        set headingType(value) {
-
-            if (value == "h2"){
-                this._tagType = "h2";
-            } else if (value == "h3"){
-                this._tagType = "h3";
-            } else {
-                this._tagType = "h1";
-            } 
-            this.redraw();
-        }
-
         get widgetText() {
             return this._tagType;
         }
